@@ -29,9 +29,9 @@
 
 <img src="./ayukskie/a4.jpg" width="900" height="900" alt="Каскады воды в реке">
 	
-	
+	<div class="block-4">
 	<h3>"Лесной дух" позирует в образе туриста<h3>
-
+	</div>
 <img src="./ayukskie/a5.jpg" width="900" height="700" alt="Фигура человека стоящего над водопадом">
 
 <br>
@@ -58,7 +58,9 @@
 	.block-3 {
 	background-color: yellow;
 	}
-
+	.block-4 {
+	background-color: braun;
+	}
 
 </body>
 
