@@ -43,7 +43,13 @@ ul.menu li {
 	margin: 1px 2px 0 0;
     font-size: 1.2em;
 }
-ul.list li a {
+ul.list li a:hover {
+    color: rgb(223, 238, 16);
+    display: block;
+    text-decoration: none;
+}
+ul.menu a:hover {
+    color: rgb(241, 90, 110);
     display: block;
     text-decoration: none;
 }
