@@ -8,6 +8,7 @@
     margin-left: 0px;
     margin-right: 0px;
     min-width: 900px;
+    padding: 20px;
 }
     .main, .logo, .menubar, .site_content, .footer {
         margin-left: auto;
@@ -23,6 +24,7 @@
     width: 400px;
     margin-left: 0px;
     margin-right: 0px;
+    padding: 15px;
 }
 .bar {
     font-size: 1.5em;
