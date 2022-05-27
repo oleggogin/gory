@@ -24,8 +24,26 @@
     margin-left: 0px;
     margin-right: 0px;
 }
-.menu {
+.bar {
     font-size: 1.5em;
     color: darkblue;
     padding-left: 50px;
+}
+.menubar {
+	width: 900px;
+	height: 46px;
+}
+ul.menu {
+	float: right;
+}
+ul.menu li {
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none;
+	margin: 1px 2px 0 0;
+    font-size: 1.2em;
+}
+ul.list li a {
+    display: block;
+    text-decoration: none;
 }
