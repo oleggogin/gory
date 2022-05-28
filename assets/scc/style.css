@@ -36,7 +36,7 @@
 	height: 46px;
 }
 ul.menu {
-	float: right;
+	float: right;  
 }
 ul.menu li {
 	float: left;
@@ -47,11 +47,15 @@ ul.menu li {
 }
 ul.list li a:hover {
     color: rgb(223, 238, 16);
-    display: block;
     text-decoration: none;
 }
-ul.menu a:hover {
+ul.menu li a:hover {
     color: rgb(241, 90, 110);
-    display: block;
+    text-decoration: none;
+}
+ul.menu a {
+    text-decoration: none;
+}
+ul.list a {
     text-decoration: none;
 }
