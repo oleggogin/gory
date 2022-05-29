@@ -18,7 +18,7 @@
         width: 1400px;
         padding-bottom: 40px;
 }
-.sidebar {
+.leftbar {
     background-color: rgb(142, 175, 247);
     height: 800px;
     width: 400px;
@@ -58,4 +58,14 @@ ul.menu a {
 }
 ul.list a {
     text-decoration: none;
+}
+.site_content {
+    width: 880px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: aqua;
+}
+.sidebar_container {
+    float: right;
+    width: 224px;
 }
