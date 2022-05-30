@@ -1,35 +1,50 @@
-.main {
-    background-color: antiquewhite;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	width: 60%;
+	padding: 8px;
+}
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1 px #f2f2f2;
+	
 }
 .header {
-    background-color:  rgb(162, 236, 195);
-    height: 200px;
+    background-color:  rgb(15, 70, 37);
+    height: 177px;
     font-size: 00.8em;
     margin-left: 0px;
     margin-right: 0px;
     min-width: 900px;
-    padding: 20px;
 }
     .main, .logo, .menubar, .site_content, .footer {
         margin-left: auto;
         margin-right: auto;
 }
     .logo {
-        width: 1400px;
+        width: 880px;
         padding-bottom: 40px;
 }
-.leftbar {
-    background-color: rgb(142, 175, 247);
-    height: 800px;
-    width: 400px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 15px;
+.logo h1, .logo h2 {
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
 }
-.bar {
-    font-size: 1.5em;
-    color: darkblue;
-    padding-left: 50px;
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	padding: 22px 0 0 0;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+.logo_text h2 {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #999;
 }
 .menubar {
 	width: 900px;
@@ -43,29 +58,44 @@ ul.menu li {
 	padding: 0 0 0 9px;
 	list-style: none;
 	margin: 1px 2px 0 0;
-    font-size: 1.2em;
 }
-ul.list li a:hover {
-    color: rgb(223, 238, 16);
+ul.menu li a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: rgb(252, 245, 246);
     text-decoration: none;
 }
+ul.menu li.selected a {
+    color: #aeb002;
+}
+
 ul.menu li a:hover {
-    color: rgb(241, 90, 110);
-    text-decoration: none;
-}
-ul.menu a {
-    text-decoration: none;
-}
-ul.list a {
-    text-decoration: none;
+    color: #e4ec04;
 }
 .site_content {
     width: 880px;
     overflow: hidden;
     margin: 20px auto 0 auto;
-    background-color: aqua;
+    background-color: white;
 }
 .sidebar_container {
-    float: right;
-    width: 224px;
+	float: right;
+	width: 224px;
+
+}
+.sidebar {
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 5px #f2f2f2;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+.btn {
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
 }
